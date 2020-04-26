@@ -1,15 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Вегетарианский Ресторан</title>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400;0,700;1,400;1,700&family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/libs.min.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
+
 <body>
+    <header class="header">
+        <div class="container">
+            <nav class="header__menu">
+                <ul class="header__menu-list">
+                    <li class="header__menu-item">
+                        <a class="header__menu-link" href="#">На Главную</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a class="header__menu-link" href="#">Особые блюда</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a class="header__menu-link" href="#">О нас</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a class="header__menu-link" href="#">Меню</a>
+                    </li>
+                    <li class="header__menu-item">
+                        <a class="header__menu-link" href="#">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="header__title">
+                <div class="header__title-text">
+                    Мы - философия свежей, натуральной, полезной, а главное — очень вкусной еды.
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="basis">
+            <div class="container">
+                <div class="basis__inner">
+                    <div class="basis__box">
+                        <div class="basis__icon" style="background-image: url(images/salad.svg);"></div>
+                        <div class="basis__title">Только Здоровая Пища</div>
+                        <div class="basis__text">
+                            Наши продукты подвергаются минимальной термальной обработке, чтобы сохранить максимум
+                            полезных
+                            веществ.
+                        </div>
+                    </div>
+                    <div class="basis__box">
+                        <div class="basis__icon" style="background-image: url(images/vegetables.svg);"></div>
+                        <div class="basis__title">Только Свежие Продукты</div>
+                        <div class="basis__text">
+                            Мы готовим только из свежих сезонных продуктов и не используем полуфабрикаты,
+                            усилители вкуса и замороженные продукты.
+                        </div>
+                    </div>
+                    <div class="basis__box">
+                        <div class="basis__icon" style="background-image: url(images/shipping.svg);"></div>
+                        <div class="basis__title">Быстрая Доставка</div>
+                        <div class="basis__text">
+                            Быстрая доставка еды в любую точку Киева в течении 40 минут. Если наш курьер опоздает,
+                            доставка совершенно бесплатна.
+                        </div>
+                    </div>
+                </div>
+        </section>
+        <section class="specials">
+            <div class="container">
+                <div class="specials__title">Особые блюда месяца</div>
+                <div class="specials__inner">
+                    <div class="specials__item">
+                        <img class="specials__img" src="images/greek-salad.png">
+                        <div class="specials__box">
+                            <div class="specials__box-title">
+                                Салат с бобами
+                            </div>
+                            <div class="specials__box-text">
+                                Овощной салат с бобами
+                            </div>
+                            <div class="specials__box-price">300 грн.</div>
+                        </div>
+                    </div>
+                    <div class="specials__item">
+                        <img class="specials__img" src="images/celery.png">
+                        <div class="specials__box">
+                            <div class="specials__box-title">
+                                Крем суп
+                            </div>
+                            <div class="specials__box-text">
+                                Крем суп с сельдереем
+                            </div>
+                            <div class="specials__box-price">350 грн.</div>
+                        </div>
+                    </div>
+                    <div class="specials__item">
+                        <img class="specials__img" src="images/pea.png">
+                        <div class="specials__box">
+                            <div class="specials__box-title">
+                                Теплый салат
+                            </div>
+                            <div class="specials__box-text">
+                                Теплый овощной салат
+                            </div>
+                            <div class="specials__box-price">250 грн.</div>
+                        </div>
+                    </div>
+                    <div class="specials__item">
+                        <div class="specials__box">
+                            <div class="specials__box-title">
+                                Чизкейк
+                            </div>
+                            <div class="specials__box-text">
+                                Чизкейк со свежими фруктами
+                            </div>
+                            <div class="specials__box-price">105 грн.</div>
+                        </div>
+                        <img class="specials__img" src="images/fruit.png">
+                    </div>
+                    <div class="specials__item">
+                        <div class="specials__box">
+                            <div class="specials__box-title">
+                                Шоколадный пончик
+                            </div>
+                            <div class="specials__box-text">
+                                Шоколадный пончик с джемом
+                            </div>
+                            <div class="specials__box-price">75 грн.</div>
+                        </div>
+                        <img class="specials__img" src="images/donut.png">
+                    </div>
+                    <div class="specials__item">
+                        <div class="specials__box">
+                            <div class="specials__box-title">
+                                Арбузовый смузи
+                            </div>
+                            <div class="specials__box-text">
+                                Освежающий арбузовый смузи
+                            </div>
+                            <div class="specials__box-price">85 грн.</div>
+                        </div>
+                        <img class="specials__img" src="images/watermelon.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container">
+                <div class="about__box">
+                    <div class="about__title">
+                        О Нас
+                    </div>
+                    <div class="about__text">
+                        Мы готовим вкуснейшую и полезнейшую еду. Веганскую или Plant Basеd, как она еще называется. Наш шеф
+                        Александр, тонко чувcтвует вкусы и использует огромный западный опыт веганской кухни.
+                    </div>
+                </div>
+                <img src="images/.png" alt="">
+            </div>
+        </section>
+        <section class="menu">
+            <div class="container">
 
-
+            </div>
+        </section>
+    </main>
 
 
 
@@ -22,4 +182,5 @@
     <script src="js/libs.min.js"></script>
     <script src="js/main.min.js"></script>
 </body>
+
 </html>
